@@ -32,7 +32,6 @@ Sou apaixonado por desenvolvimento de software e utilizo este repositório como 
 ### 🎮 Lógica, Jogos e Matemática
 * **`SistemaMatch.java`**: Estrutura de classes baseada em agentes de jogos táticos, demonstrando Polimorfismo na execução de habilidades específicas (Duelistas e Controladores).
 * **`SistemaFigurasAvancado.java`**: Cálculo de áreas iterando sobre um `ArrayList` dinâmico contendo diversas formas geométricas.
-* **`ExercicioJubran.java`**: Menu interativo em terminal para operações matemáticas diversas.
 
 ## 🤝 Contatos
 * **Telefone:** 11 98831-0378
