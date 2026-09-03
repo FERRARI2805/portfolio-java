@@ -1,38 +1,52 @@
-# ☕ Práticas de Programação Orientada a Objetos (POO) em Java
+# ☕ Práticas e Algoritmos de POO em Java
 
-## 👨‍💻 Sobre Mim e o Repositório
-Olá! Sou o Pedro Ferrari, tenho 20 anos, moro em São Paulo e sou estudante de Analise e Desenvolvimento de Sistemas na Universidade Anhembi Morumbi. 
+Repositório estruturado contendo implementações práticas de Programação Orientada a Objetos (POO), algoritmos e simulação de regras de negócio de mercado em Java puro.
 
-Sou apaixonado por desenvolvimento de software e utilizo este repositório como um portfólio ativo para documentar minha evolução no aprendizado de Java e POO. Os códigos aqui englobam desde os fundamentos lógicos até a implementação de regras de negócio, simulando cenários reais do mercado de trabalho.
+> 🚀 **Projeto Principal com Banco de Dados e GUI:**  
+> Caso queira conferir uma aplicação completa com interface Swing e persistência MySQL, visite o repositório dedicado do [**EcoDrive — Gestão de Frotas**](https://github.com/PedroFerrari01/EcoDrive).
 
+---
 
-## 🚀 Tecnologias e Conceitos Aplicados
-* **Linguagem:** Java
-* **Conceitos de POO:**
-  * Classes, Objetos e Instanciação
-  * Encapsulamento (Getters e Setters) 
-  * Herança e Classes Abstratas
-  * Polimorfismo e Sobrescrita de Métodos (`@Override`)
-  * Interfaces e Contratos
-  * Enums
-* **Estruturas e Lógica:**
-  * Estruturas de controle (`if/else`, `switch-case`)
-  * Laços de repetição (`for`, `while`, `do-while`, `for-each`)
-  * Coleções dinâmicas (`ArrayList`) e manipulação de Arrays estáticos
+## 🎯 Propósito do Repositório
 
-## 📂 Principais Projetos e Estruturas
+Este ambiente serve como registro prático de evolução técnica em Java, demonstrando a aplicação dos fundamentos da linguagem, estruturas de controle e padrões de projeto essenciais para o desenvolvimento backend corporativo.
 
-### 💼 Foco em Regras de Negócio e Mercado
-* **`MiniCRM.java`**: Operações básicas de um sistema de gestão de relacionamento com clientes, simulando um CRUD simples em memória.
-* **`ECommercePagamentos.java`**: Simulação de um checkout de loja aplicando **Interfaces** para processar diferentes métodos de pagamento.
-* **`HelpDesk.java`**: Sistema de tickets de suporte utilizando **Enums** para um controle de status seguro e padronizado.
-* **`GestaoAcademica.java`**: Estrutura de relacionamento entre classes, vinculando vários objetos de estudantes a um curso específico.
-* **`SistemaBancario.java`**: Simulação de contas bancárias com aplicação de diferentes taxas de saque via Polimorfismo.
+---
 
-### 🎮 Lógica, Jogos e Matemática
-* **`SistemaMatch.java`**: Estrutura de classes baseada em agentes de jogos táticos, demonstrando Polimorfismo na execução de habilidades específicas (Duelistas e Controladores).
-* **`SistemaFigurasAvancado.java`**: Cálculo de áreas iterando sobre um `ArrayList` dinâmico contendo diversas formas geométricas.
+## 🛠️ Tecnologias e Conceitos Aplicados
 
-## 🤝 Contatos
-* **Telefone:** 11 98831-0378
-* **E-mail:** pedrohpferrari@gmail.com
+- **Linguagem:** Java (JDK 17+)
+- **Pilares de POO:**
+  - Classes, Objetos e Encapsulamento (`getters/setters` e controle de acesso)
+  - Herança e Classes Abstratas
+  - Polimorfismo e Sobrescrita de Métodos (`@Override`)
+  - Interfaces, Contratos de Implementação e `Enums`
+- **Estruturas de Controle e Dados:**
+  - Fluxos condicionais (`if/else`, `switch-case`)
+  - Laços de repetição (`for`, `while`, `for-each`)
+  - Coleções dinâmicas (`List`, `ArrayList`) e arrays nativos
+
+---
+
+## 📁 Estrutura dos Módulos e Desafios
+
+### 💼 Regras de Negócio e Simulações de Mercado
+
+- **[`MiniCRM.java`](./MiniCRM.java):** Operações fundamentais de gestão de clientes, simulando ciclo de CRUD em memória.
+- **[`ECommercePagamentos.java`](./ECommercePagamentos.java):** Simulação de checkout aplicando contratos via **Interfaces** para processamento desacoplado de pagamentos.
+- **[`HelpDesk.java`](./HelpDesk.java):** Gestão e ciclo de vida de tickets de suporte utilizando **Enums** para controle estrito de status.
+- **[`GestaoAcademica.java`](./GestaoAcademica.java):** Modelagem de relacionamentos entre entidades (agregação e composição entre alunos e cursos).
+- **[`SistemaBancario.java`](./SistemaBancario.java):** Operações financeiras com taxas dinâmicas de saque e rendimento via **Polimorfismo**.
+
+### 🎮 Lógica, Estruturas e Algoritmos
+
+- **[`SistemaMatch.java`](./SistemaMatch.java):** Hierarquia de classes inspirada em agentes táticos, utilizando herança e polimorfismo para execução de habilidades especializadas.
+- **[`SistemaFigurasAvancado.java`](./SistemaFigurasAvancado.java):** Cálculo geométrico desacoplado iterando coleções heterogêneas via `ArrayList`.
+
+---
+
+## 📬 Contato
+
+- **E-mail:** pedrohpfarrari@gmail.com
+- **LinkedIn:** [Pedro Ferrari](www.linkedin.com/in/pedrohpferrari)
+- **GitHub Perfil:** [@PedroFerrari01](https://github.com/PedroFerrari01)
