@@ -32,21 +32,23 @@ Este ambiente serve como registro prático de evolução técnica em Java, demon
 
 ### 💼 Regras de Negócio e Simulações de Mercado
 
-- **[`MiniCRM.java`](./MiniCRM.java):** Operações fundamentais de gestão de clientes, simulando ciclo de CRUD em memória.
-- **[`ECommercePagamentos.java`](./ECommercePagamentos.java):** Simulação de checkout aplicando contratos via **Interfaces** para processamento desacoplado de pagamentos.
-- **[`HelpDesk.java`](./HelpDesk.java):** Gestão e ciclo de vida de tickets de suporte utilizando **Enums** para controle estrito de status.
-- **[`GestaoAcademica.java`](./GestaoAcademica.java):** Modelagem de relacionamentos entre entidades (agregação e composição entre alunos e cursos).
-- **[`SistemaBancario.java`](./SistemaBancario.java):** Operações financeiras com taxas dinâmicas de saque e rendimento via **Polimorfismo**.
+- **`Mini Gestor de Clientes CRUD.java`:** Operações fundamentais de gestão de clientes, simulando ciclo de CRUD em memória.
+- **`Sistema de Pagamentos.java`:** Simulação de checkout e contratos para processamento de pagamentos.
+- **`Help Desk.java`:** Gestão e ciclo de vida de tickets de suporte com controle de status.
+- **`Sistema de Matrícula Universitária.java`:** Modelagem de relacionamentos entre entidades (alunos e cursos).
+- **`Simulador de Conta Bancária (Depósito e Saque).java`:** Operações financeiras com taxas e transações em conta.
+- **`Sistema de Gestão de Funcionários e Salários.java`:** Estrutura de funcionários, cargos e regras de cálculo salarial.
 
 ### 🎮 Lógica, Estruturas e Algoritmos
 
-- **[`SistemaMatch.java`](./SistemaMatch.java):** Hierarquia de classes inspirada em agentes táticos, utilizando herança e polimorfismo para execução de habilidades especializadas.
-- **[`SistemaFigurasAvancado.java`](./SistemaFigurasAvancado.java):** Cálculo geométrico desacoplado iterando coleções heterogêneas via `ArrayList`.
+- **`Sistema de Habilidades.java`:** Hierarquia de classes e execução de habilidades personalizadas.
+- **`Sistema de Figuras Geométricas (V1 e V2).java`:** Cálculo geométrico e polimorfismo com formas variadas.
+- **`Calculadora de Média de Alunos.java`:** Estruturas condicionais e validações de dados.
 
 ---
 
 ## 📬 Contato
 
 - **E-mail:** pedrohpfarrari@gmail.com
-- **LinkedIn:** [Pedro Ferrari](www.linkedin.com/in/pedrohpferrari)
+- **LinkedIn:** [Pedro Ferrari](https://www.linkedin.com/in/pedrohpferrari/)
 - **GitHub Perfil:** [@PedroFerrari01](https://github.com/PedroFerrari01)
